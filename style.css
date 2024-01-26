@@ -1,0 +1,93 @@
+.wireframe {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .wireframe .div {
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 1376px;
+    position: relative;
+  }
+  
+  .wireframe .group {
+    position: absolute;
+    width: 1440px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/rectangle-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .wireframe .image {
+    position: absolute;
+    width: 300px;
+    height: 106px;
+    top: 0;
+    left: 30px;
+    object-fit: cover;
+  }
+  
+  .wireframe .frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 71px;
+    position: absolute;
+    top: 15px;
+    left: 430px;
+  }
+  
+  .wireframe .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Saira-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ff5c16;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .wireframe .frame-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1380px;
+    height: 1047px;
+    align-items: center;
+    justify-content: center;
+    gap: 48px 48px;
+    position: absolute;
+    top: 106px;
+    left: 30px;
+  }
+  
+  .wireframe .union {
+    position: relative;
+    width: 642px;
+    height: 384px;
+    object-fit: cover;
+  }
+  
+  .wireframe .img {
+    position: relative;
+    width: 642px;
+    height: 390px;
+    object-fit: cover;
+  }
+  
+  .wireframe .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    top: 1176px;
+    left: 0;
+  }
+  
