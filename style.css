@@ -10,14 +10,14 @@
     background-image: url(./img/background.png);
     background-size: cover;
     background-position: 50% 50%;
-    width: 1440px;
+    width: 100%;
     height: 1376px;
     position: relative;
   }
   
   .wireframe .group {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 106px;
     top: 0;
     left: 0;
@@ -85,7 +85,7 @@
   
   .wireframe .rectangle {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 200px;
     top: 1176px;
     left: 0;
